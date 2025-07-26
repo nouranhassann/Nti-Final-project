@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(255, 204, 0); 
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30 30px;
+  margin-left: 300px;
+ 
+}
+
+.contact-info {
+  display: flex;
+  gap: 90px;
+  color: #000;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.icon-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 15px;
+}
+
+.socialmedia a {
+  color: #000;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.socialmedia a:hover {
+  color: rgb(255, 26, 26)6b6;
+  
+}
+
+section:nth-of-type(2) {
+   background-image: url(../images/1.jpg);
+   background-color: rgba(0, 0, 0, 0.6);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 80vh;
+   background-blend-mode: darken;
+}
+.habal{
+  color: #000;
+  text-decoration: none;
+}
+section:nth-of-type(2) div{
+  text-align: center;
+  padding:150px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
+  color: #fff;
+}
+.try{
+  color: rgb(255, 244, 35);
+ 
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.try1{
+   font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+section:nth-of-type(2) div p{
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
+  color: #fffcfc;
+
+}
+section:nth-of-type(3){
+  background-color: rgb(255, 255, 255);
+  height: 61vh;
+  padding: 40px 0;
+}
+.bold{
+  font-weight: bold;
+}
+section:nth-of-type(4){
+  background-color:aliceblue;
+  height: 75vh;
+}
+.div1{
+  text-align: center;
+  padding: 70px 0;
+}
+.div1 h2{
+  font-weight: bold;
+}
+ .features {
+      display: flex;
+      justify-content: center;
+      gap: 37px;
+      
+      text-align: center;
+    }
+    
+.feature-box {
+      width: 245px;
+    }
+.circle-icon {
+ background-color: rgb(255, 179, 0);
+ background-clip: calc(35% - 15px);
+ border-radius: 70%;
+ width: 60px;
+ height: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 27px;
+ color: rgba(0, 0, 0, 0.893);
+ margin: 0 auto 15px;
+ -webkit-border-radius: 70%;
+ -moz-border-radius: 70%;
+ -ms-border-radius: 70%;
+ -o-border-radius: 70%;
+}
+section:nth-of-type(5){
+  background-color:white;
+  height: 80vh;
+}
+.before{
+  height: 33vh;
+}
+.lastt{
+  height: 80vh;
+}
+
